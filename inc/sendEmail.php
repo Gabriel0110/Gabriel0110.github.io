@@ -4,7 +4,7 @@
 $siteOwnersEmail = 'gabrieltomberlin14@gmail.com';
 
 
-if($_POST) {
+if(isset( $_POST['submit'] )) {
 
    $name = trim(stripslashes($_POST['contactName']));
    $email = trim(stripslashes($_POST['contactEmail']));

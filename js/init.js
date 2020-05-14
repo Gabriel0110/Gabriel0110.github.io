@@ -137,7 +137,7 @@
 /*	contact form
 ------------------------------------------------------*/
 
-   $('form#contactForm button.submit').click(function() {
+   $('#contactForm button.submit').click(function() {
 
       $('#image-loader').fadeIn();
 
@@ -152,7 +152,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "/inc/sendEmail.php",
+	      url: "inc/sendEmail.php",
 	      data: data,
 	      success: function(msg) {
 

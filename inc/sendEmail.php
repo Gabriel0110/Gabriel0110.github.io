@@ -4,7 +4,7 @@
 $siteOwnersEmail = 'gabrieltomberlin14@gmail.com';
 
 
-if(isset( $_POST['submit'] )) {
+if($_POST) {
 
    $name = trim(stripslashes($_POST['contactName']));
    $email = trim(stripslashes($_POST['contactEmail']));
@@ -64,6 +64,6 @@ if(isset( $_POST['submit'] )) {
 
 	} # end if - there was a validation error
 
-}
+} else { echo "Didn't work."; }
 
 ?>

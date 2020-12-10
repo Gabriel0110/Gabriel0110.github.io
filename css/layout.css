@@ -345,6 +345,11 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: sql 2s ease;
   	-webkit-animation: sql 2s ease;
 }
+.csharp {
+   width: 20%;
+   -moz-animation: csharp 2s ease;
+   -webkit-animation: csharp 2s ease;
+}
 .tensorflow {
   	width: 35%;
   	-moz-animation: tensorflow 2s ease;
@@ -372,6 +377,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 40%;  }
 }
+@-moz-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 20%;  }
+ }
 @-moz-keyframes tensorflow {
   0%   { width: 0px;  }
   100% { width: 35%;  }
@@ -397,6 +406,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 40%;  }
 }
+@-webkit-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 20%;  }
+ }
 @-webkit-keyframes tensorflow {
   0%   { width: 0px;  }
   100% { width: 35%;  }
